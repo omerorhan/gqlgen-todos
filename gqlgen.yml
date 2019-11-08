@@ -9,7 +9,7 @@ exec:
   filename: generated.go
 models:
   Todo:
-    model: github.com/[username]/gqlgen-todos.Todo
+    model: github.com/omerorhan/gqlgen-todos.Todo
 resolver:
   filename: resolver.go
   type: Resolver
