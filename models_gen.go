@@ -5,6 +5,7 @@ package gqlgen_todos
 type NewTodo struct {
 	Text   string `json:"text"`
 	UserID string `json:"userId"`
+	Done   bool   `json:"done"`
 }
 
 type User struct {
