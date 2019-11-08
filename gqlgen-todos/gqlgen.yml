@@ -1,0 +1,17 @@
+# .gqlgen.yml example
+#
+# Refer to https://gqlgen.com/config/
+# for detailed .gqlgen.yml documentation.
+
+schema:
+- schema.gqlgen-todos
+exec:
+  filename: generated.go
+model:
+  filename: models_gen.go
+  Todo:
+    model: github.com/omerorhan/gqlgen-todos.Todo
+resolver:
+  filename: resolver.go
+  type: Resolver
+autobind: []
